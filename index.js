@@ -14,3 +14,7 @@ function increaseRankBy(n) {
     ranks[i].innerHTML = ((i + parseInt(n)).toString())
   }
 }
+
+function deepestChild() {
+  let curent = document.getElementsByTagName('div').querySelectorAll('div#grand-node');
+}
