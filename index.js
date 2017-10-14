@@ -19,7 +19,7 @@ function deepestChild() {
   let current = document.querySelectorAll('div#grand-node');
   var lastChild = [];
 
-  if (current.length > 1) {
+  if (current.length < 1) {
     return null;
   } else {
 
