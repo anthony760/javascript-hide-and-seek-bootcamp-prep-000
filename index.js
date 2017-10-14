@@ -16,5 +16,5 @@ function increaseRankBy(n) {
 }
 
 function deepestChild() {
-  let curent = document.getElementsByTagName('div').querySelectorAll('div#grand-node');
+  let curent = document.querySelectorAll('div#grand-node');
 }
