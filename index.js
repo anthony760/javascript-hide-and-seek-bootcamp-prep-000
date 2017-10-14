@@ -24,7 +24,7 @@ function deepestChild() {
   } else {
 
     while (current.length > 0) {
-      for (let i = 0; current.length; i++) {
+      for (let i = 0; i < current.length; i++) {
         lastChild.push(current[0]);
       }
       current = lastChild.shift();
